@@ -46,13 +46,13 @@ plt.scatter(df['Age'], df['Fare'], color='blue', alpha=0.6)
 plt.xlabel('Age')
 plt.ylabel('Fare')
 plt.title('Age vs Fare Scatter Plot')
-plt.draw()
+
 
 plt.figure(figsize=(6, 4))
 plt.hist(df['Survived'], bins=20, color='green', alpha=0.7)
 plt.xlabel('Survival Status')
 plt.ylabel('Count')
 plt.title('density of passengers survived and not survived')
-plt.draw()
+
 
 plt.show()
